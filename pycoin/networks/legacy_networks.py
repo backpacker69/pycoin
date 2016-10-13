@@ -16,6 +16,13 @@ NETWORKS = (
     NetworkValues("Litecoin", "testnet", "XLT", b'\xef', b'\x6f', b'\xc4',
                   h2b('0436ef7d'), h2b('0436f6e1')),
 
+    # PPC peercoin mainnet:
+    NetworkValues("Peercoin", "mainnet", "PPC", b'\xb7', b'\x37', b'\75', 
+                                               h2b("0488ADE4"), h2b("0488B21E")),
+    # PPC peercoin testnet:
+    NetworkValues("Peercoin", "testnet", "tPPC", b'\xef', b'\x6f', b'\c4', 
+                                                h2b("0488ADE4"), h2b("0488B21E")),
+
     # VIA viacoin mainnet : xprv/xpub
     NetworkValues("Viacoin", "mainnet", "VIA", b'\xc7', b'\x47', b'\x21', h2b('0488ADE4'), h2b('0488B21E')),
     # VIA viacoin testnet : tprv/tpub
